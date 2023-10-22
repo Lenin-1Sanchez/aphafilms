@@ -1,0 +1,295 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    width: 100%;
+    height: 70vh;
+    background-color: #CD4807;
+}
+.cont{
+    width: 100%;
+    height: 100%;
+}
+.header-content{
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header1{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    width: 30%;
+    height: 100%;
+    margin-right: auto;
+}
+.header2{
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo a{
+    
+    color: rgb(221, 52, 52);
+    font-size: 25px;
+    font-family: cursive
+}
+a:hover{
+    color: red;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.Incio{
+    height: 100%;
+}
+.Incio a{
+    line-height: 4;
+}
+.Categorias{
+    height: 100%;
+}
+.Categorias a{
+    line-height: 4;
+}
+.help{
+    height: 100%;
+}
+.help a{
+    line-height: 4;
+}
+.conta{
+    height: 100%;
+}
+.conta a{
+    line-height: 4;
+}
+.Incio:hover{
+    transition: all 70ms;
+    border-bottom: 8px red solid;
+    background-color: rgba(44, 43, 43, 0.315);
+}
+.Categorias:hover{
+    transition: all 70ms;
+    border-bottom: 8px red solid;
+    background-color: rgba(44, 43, 43, 0.315);;
+}
+.help:hover{
+    transition: all 70ms;
+    border-bottom: 8px red solid;
+    background-color: rgba(44, 43, 43, 0.315);;
+}
+.conta:hover{
+    transition: all 70ms;
+    border-bottom: 8px red solid;
+    background-color: rgba(44, 43, 43, 0.315);;
+}
+.tp-10{
+    width: 100%;
+    height: 100%;
+    background-color: #CD4807;
+    display: flex;
+}
+.logo a:hover > i{
+    color: aliceblue;
+    transition: all 90ms;
+}
+.separa{
+    display: flex;
+    justify-content: space-around ;
+    width: 100%;
+    height: 100%;
+}
+.Informacion{
+    background-color: rgba(0, 0, 0, 0.616);
+    margin-right: auto;
+    padding: 30px;
+    width: 40%;
+    height: 80.8%;
+    color: white;
+}
+.tite h1{
+    font-size: 80px;
+
+}
+.but{
+    display: flex;
+    justify-content: center;
+}.but button{
+    width: 300px;
+    height: 60px;
+    border: none;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-bottom: rgb(221, 52, 52) 5px solid;
+}
+.but button:hover{
+    border: 5px solid rgb(221, 52, 52);
+    transition: all 90ms;
+    background-color: rgb(221, 52, 52);
+    border-radius: 10px;
+}
+.Para{
+    width: 100%;
+    height: 247px;
+    overflow: auto;
+}
+.Para p{
+    font-size: 20px;
+}
+.img{
+    display: flex;
+}
+.im{
+    margin-left: auto;
+    width: 70%;
+    object-fit: contain;
+}
+.cuerpo{
+    z-index: 1;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.contenido{
+    width: 95%;
+    height: 90%;
+}
+.ct1{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+.cti{
+    width: 33%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.ct2{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: space-around;
+    align-items: center;   
+}
+.ct3{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: space-around;
+    align-items: center;   
+}
+.ct4{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: space-around;
+    align-items: center;   
+}
+.sec h1{
+    color: white;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    height: auto;
+}
+.sec a{
+    font-size: 20px;
+}
+.sec a:hover{
+    transition: all 70ms;
+    border-bottom: 3px red solid;
+}
+.cti{
+    display: flex;
+}
+.inf{
+    color: white;
+    width: 80%;
+    margin-left: 10px;
+}
+.p{
+    height:80px;
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.tm{
+    width: 30%;
+    height: 100%;
+}
+.tm img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.df{
+    display: flex;
+    justify-content: center ;
+    width: 80%;
+}
+.df a{
+    width: 200px;;
+    display: flex;
+    justify-content: center;
+}
+.df button{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 50%;
+    outline: none;
+    border: none;
+}
+.df a{
+    border-bottom: 3px solid rgb(221, 52, 52);
+}
+.df a:hover{
+    background-color: rgb(221, 52, 52);
+    transition: all 0.50s;
+}
+.df button i{
+    color: rgba(255, 0, 0, 0.76);
+}
+.cat{
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 300px;
+    background-color: rgba(36, 36, 36, 0.945);
+}
+.cat:hover{
+    display: block;
+}
+.ct:hover ~ .cat{
+    display: block;
+}
+.Categorias a{
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
